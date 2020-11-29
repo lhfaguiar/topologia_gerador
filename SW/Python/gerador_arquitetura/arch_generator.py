@@ -21,7 +21,7 @@ def Network_gen(inputs, topo, outputs, name, input_size, output_size):
     # Creates a new file
     topo_done = open("%s.vhd" %name, "w+")
 
-    topo_string = '--Headers\nlibrary ieee;\nuse ieee.std_logic_1164.all; \nuse ieee.numeric_std.all;\nentity Node is\n     generic (\n            '
+    topo_string = 'import pandas as pd \nimport math \n \ndef main(): \n'
     
     in_size = input_size
     out_size = output_size

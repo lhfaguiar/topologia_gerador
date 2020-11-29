@@ -1,2 +1,8 @@
 # folders
 .vscode/
+settings.json
+secretnotes.md
+imports/lib/
+public/fonts/
+
+# compiled python
